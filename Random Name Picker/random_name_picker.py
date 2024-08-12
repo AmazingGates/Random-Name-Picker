@@ -1,3 +1,4 @@
+import streamlit as st
 import random
 
 names = [
@@ -8,3 +9,5 @@ print(f"All names: {names}\n")
 
 idx = random.randint(0, len(names) - 1)
 print(f"Picked names: {names[idx]}")
+
+st.header("Random Name Picker")
